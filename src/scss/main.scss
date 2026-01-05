@@ -77,7 +77,16 @@ audio {
 }
 
 .player-progress-bar {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  border-radius: 3px;
+  background: var(--light-gray, #f6f6ef);
 }
 
 .player-progress-inner {
+  width: 120px;
+  height: 6px;
+  background: var(--purple, #e783bc);
 }
