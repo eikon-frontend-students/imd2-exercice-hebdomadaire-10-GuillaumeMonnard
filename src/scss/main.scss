@@ -13,6 +13,15 @@ video {
   display: block;
 }
 
+body {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding: 100px 1188px 755px 100px;
+  align-items: center;
+  background: var(--lavender, #c4d2f5);
+}
+
 .player {
   display: flex;
   width: 440px;
@@ -21,6 +30,9 @@ video {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  border-radius: 20px;
+  background: var(--white, #fff);
+  box-shadow: 0 0 0 20px rgba(255, 254, 254, 0.15);
 }
 
 .player-header {
